@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image {
+  background-image: url("frame.png");
+  background-repeat: no-repeat;
+
+  background-position: right;
+  object-fit: fill;
+}
+.ima {
+  background-image: url("fame.png");
+  background-repeat: no-repeat;
+
+  background-position: left;
+  object-fit: fill;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #747474;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(69, 89, 221, 255);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  display: none;
+}
+
+::-webkit-progress-bar {
+  height: 3px;
+  border-radius: 20px;
+  background-color: #eee;
+  display: none;
+}
+::-webkit-progress-value {
+  height: 10px;
+  border-radius: 20px;
+  background-color: #747474;
+  display: none;
+}
